@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" footer="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-family.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>LIGHTNING LIGHT FOOTWARE</title>
+</head>
+
+<body>
+    <div class="main">
+    
+
+        <div class="side-bar-wrap">
+            <div class="side-bar-inner">
+                <ul>
+                    <li>
+                        <button class="menu-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32">
+                                <path id="ico_menu"
+                                    d="M1872,92a2,2,0,0,1,0-4h19a2,2,0,0,1,0,4Zm-17-14a2,2,0,0,1,0-4h36a2,2,0,0,1,0,4Zm6-14a2,2,0,0,1,0-4h30a2,2,0,0,1,0,4Z"
+                                    transform="translate(-1853 -60)" fill="#fff" />
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <svg id="cart" xmlns="http://www.w3.org/2000/svg" width="34.997" height="31.993"
+                                viewBox="0 0 34.997 31.993">
+                                <path id="Subtraction_1" data-name="Subtraction 1"
+                                    d="M7000,6866a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,7000,6866Zm-13,0a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,6987,6866Zm-.38-9h-.261a1.99,1.99,0,0,1-1.948-1.551l-2.74-11.45-2-2c-.066,0-.125.005-.179.005a3,3,0,1,1,3-2.865l1.88,1.86,10.135.527c-.008.157-.013.317-.013.478a9.011,9.011,0,0,0,9,9c.162,0,.331,0,.5-.014l-.546,2.458a2.007,2.007,0,0,1-1.69,1.551l-15.14,2Z"
+                                    transform="translate(-6976.496 -6834.006)" fill="#fff" />
+                                <circle id="Ellipse_1" data-name="Ellipse 1" cx="8" cy="8" r="8"
+                                    transform="translate(18.997)" fill="#ffc601" />
+                                <text id="_2" data-name="2" transform="translate(26.997 12)" fill="#191919"
+                                    font-size="10" font-family="Montserrat-Black, Montserrat" font-weight="800"
+                                    letter-spacing="0.1em">
+                                    <tspan x="-3.04" y="0">2</tspan>
+                                </text>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="social-links">
+                    <li>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10.328" height="19.509"
+                                viewBox="0 0 10.328 19.509">
+                                <path id="Shape"
+                                    d="M1874.417,947.425v-8.9h-3.053v-3.469h3.053V932.5a4.219,4.219,0,0,1,4.548-4.584,25.584,25.584,0,0,1,2.727.136v3.1h-1.871c-1.469,0-1.753.685-1.753,1.688v2.214h3.5l-.457,3.469h-3.044v8.9Z"
+                                    transform="translate(-1871.364 -927.916)" fill="#fff" />
+                            </svg>
+
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="23" height="23" viewBox="0 0 23 23">
+                                <defs>
+                                    <clipPath id="clip-path">
+                                        <rect id="imageMask" width="23" height="23" transform="translate(1866 982)"
+                                            fill="none" />
+                                    </clipPath>
+                                </defs>
+                                <g id="icon-04-512" transform="translate(-1866 -982)" clip-path="url(#clip-path)">
+                                    <image id="icon-04-512-2" data-name="icon-04-512" width="23" height="23"
+                                        transform="translate(1866 982)"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABHNCSVQICAgIfAhkiAAAAj1JREFUSEut1cnLjmEUBvDfax4ybSwMC6KICGVhypAxKxYybLBQpCwk/4HCkpSUDLERCxkLSShTSKIUChsyZUGGT+ftfr7uHs/z+bw5m/fpPfe5zrmv+zrnNNra2vxH64lvBV6jAnwR5mIIuuI7fqaA+P2Vff/AW9zGuXKRAd49AfTCRcxs8SaRZBQ+V1V+F5NbAD6IQ9iJ4enGTZiCliU40wJw0NQti4sH3Ih9OfgRrKkBv4nw30cEj8dqzE7n1+IwVuAY7mFKvFdR+QUsqADfgP01SSPB0eR7hWHp+xlGBysFeFAS1OS2DsFn2BbMRxdcSfzG/8txohT3FGM6Ag8qpqWgS0maOcYtzEgqO4vFmfMJxuaclytfhlPYjh01tOzCtsR93KawP8CjAaJ5ChuBF3iACTXgzzESA/DxX8BDr/FIj4srViQIf5zriy+ZP2LG5bScx8LswDxcxh5sqqn8OFYl2d3JzjzExBy8LMWTSQkD8QhDSwk+JL2/wQGsz/wxZ6bm4DFTQmq5hRquYxB2Y06S4rX00K/Te8S75NautELnVzGrdChGZyQMsCqLLgyV9Cs5b2B6XvlpLK0BiTkRnRi8RvtPwsrUWFUhobxmQxaVx7DZWwNe/P01fcRo7sg2JyG0g8dSCF0X8+Ev8bXuKCDeqFlIvokGI7iPudCKfUojI3TetPKa64GtSYaRrNGJLO8QfRLL4n1+vmqHdgKv9kj/ujXXvAn6pCUcvIU66qovfL1Tk8WtX+aj4DepvbjY669jBQAAAABJRU5ErkJggg==" />
+                                </g>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Find Us</a></li>
+                    <li><a href="#">Explore Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- banner-wrap-start -->
+        <section class="banner_wrap">
+            <div class="flying-icons">
+                <div class="plus-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="803.986" height="803.986"
+                        viewBox="0 0 803.986 803.986">
+                        <path id="_" data-name="+"
+                            d="M81.645,730.156,134.394,533.3l-196.86-52.748L-9.718,283.688l196.86,52.749,56.265-209.984L440.267,179.2,384,389.185l209.984,56.265L541.237,642.31,331.253,586.045,278.505,782.9Z"
+                            transform="matrix(0.966, 0.259, -0.259, 0.966, 262.968, -105.976)" fill="#fff"
+                            opacity="0.2" />
+                    </svg>
+                </div>
+                <div class="plus-icon plus-icon1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="247.437" height="243.446"
+                        viewBox="0 0 247.437 243.446">
+                        <g id="Group_1" data-name="Group 1" transform="translate(-397.208 -826.164)">
+                            <path id="_" data-name="+"
+                                d="M717.926,1177.746l-59.864,59.864L598.2,1177.746l59.864-59.864-63.855-63.855,59.864-59.863,63.855,63.855,63.855-63.855,59.864,59.863-63.855,63.855,59.864,59.864L777.79,1237.61Z"
+                                transform="translate(-197 -168)" fill="#fff" opacity="0.2" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="plus-icon plus-icon3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="111.211" height="110.979"
+                        viewBox="0 0 111.211 110.979">
+                        <path id="_" data-name="+"
+                            d="M269.42,1048.4l-33.333,8.863-8.991-33.3,33.333-8.863-9.59-35.519,33.333-8.863,9.59,35.519,35.555-9.454,8.99,33.3-35.554,9.454,8.991,33.3L278.41,1081.7Z"
+                            transform="translate(-227.096 -970.718)" fill="#fff" opacity="0.2" />
+                    </svg>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="banner-inner">
+                    <div class="col-left">
+                        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+                        <div class="main-heading">
+                            <h1>
+                                <span>LIGHTNING</span>
+                                <span>LIGHT </span>
+                                <span>FOOTWARE</span>
+                            </h1>
+                            <a href="#" class="lt-btn">
+                                <span> ORDER NOW </span>
+                                <img src="images/order-now.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <div class="title-row">
+                            <span>TOP STORE PRODUCTS</span>
+                            <h3>for Ladies</h3>
+                        </div>
+                        <div class="banner-sliderWrap">
+                            <div class="banneSlider">
+                                <div class="slide">
+                                    <img src="images/img_sneakers_header.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/img_sneakers_header -lite-green.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/img_sneakers_header - pink.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/img_sneakers_header - green.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner-wrap-end -->
+        <!-- aboutUs-wrap-start -->
+        <section class="aboutUs-wrap">
+            <div class="container">
+                <div class="col-left">
+                    <span class="x-name">ABOUT</span>
+                    <h3><span>LOREM IPSUM</span> DOLOR SIT AMET SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE
+                    </h3>
+                    <p>DUIS EGET DUI ULLAMCORPER, EUISMOD LIBERO ID, PLACERAT NISL.</p>
+                </div>
+                <div class="col-right">
+                    <span class="about-left-head">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod
+                        tempor incididunt </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt </p>
+                    <a href="#" class="lt-btn">
+                        <span> FIND OUT </span>
+                        <img src="images/find.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- aboutUs-wrap-end -->
+        <!--hotShoe-wrap-start-->
+        <section class="hotShoe-wrap ">
+            <div class="plus-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="331.998" height="332.014" viewBox="0 0 331.998 332.014">
+                    <path id="_" data-name="+"
+                        d="M1151.623,3052.465l55.537-90.156-90.15-55.537,55.536-90.156,90.151,55.537,59.239-96.166,90.15,55.536-59.239,96.166,96.161,59.239-55.537,90.156-96.16-59.239L1241.774,3108Z"
+                        transform="translate(-1117.01 -2775.989)" fill="#ffc600" />
+                </svg>
+            </div>
+            <div class="plus-icon plus-icon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="253.975" height="254.422" viewBox="0 0 253.975 254.422">
+                    <path id="_" data-name="+"
+                        d="M593.116,3633.119,517.9,3656.655l-23.308-75.289,75.218-23.536-24.861-80.308,75.217-23.536,24.861,80.308,80.232-25.105,23.308,75.289-80.232,25.105,23.308,75.289-75.217,23.536Z"
+                        transform="translate(-494.59 -3453.986)" fill="#fff" />
+                </svg>
+
+            </div>
+            <div class="plus-icon plus-icon2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="111.211" height="110.979" viewBox="0 0 111.211 110.979">
+                    <path id="_" data-name="+"
+                        d="M269.42,1048.4l-33.333,8.863-8.991-33.3,33.333-8.863-9.59-35.519,33.333-8.863,9.59,35.519,35.555-9.454,8.99,33.3-35.554,9.454,8.991,33.3L278.41,1081.7Z"
+                        transform="translate(-227.096 -970.718)" opacity="0.3" />
+                </svg>
+            </div>
+            <div class="plus-icon plus-icon3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 331.998 332.014">
+                    <path id="_" data-name="+"
+                        d="M1151.623,3052.465l55.537-90.156-90.15-55.537,55.536-90.156,90.151,55.537,59.239-96.166,90.15,55.536-59.239,96.166,96.161,59.239-55.537,90.156-96.16-59.239L1241.774,3108Z"
+                        transform="translate(-1117.01 -2775.989)" fill="#ffc600" />
+                </svg>
+            </div>
+            <div class="products-text"><span>PRODUCTS</span> <span>PRODUCTS</span></div>
+            <div class="hotShoe-inner">
+                <div class="title-row">
+                    <span class="x-name">OFFER</span>
+                    <h2>HOT SHOE </h2>
+                    <p>for Ladies</p>
+                </div>
+                <ul class="hotShoe-tabs">
+                    <li class="clickme show"><a href="javascript:void();">WOMAN</a></li>
+                    <li class="clickme"><a href="javascript:void();">MAN</a></li>
+                    <li class="clickme"><a href="javascript:void();">KIDS</a></li>
+                </ul>
+            </div>
+            <div class="tabs-content list0">
+                <img class="bg-img" src="images/sheo-img1.png" alt="">
+                <div class="fade-inner">
+                    <div class="fade">
+                        <div class="shoe-wrap">
+                            <div class="shoe-img">
+                                <img src="images/slide-1.png" alt="">
+                            </div>
+                            <div class="slide-body" style="background-color: #ffc601;">
+
+                                <p class="slide-item"><span>1</span>/6</p>
+                                <div>
+                                    <h5>Yellow Women's Olisa -
+                                        Denim Canvas</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                        incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                    <div class="links-p">
+                                        <a href="#">QUICK LOOK</a>
+                                        <span class="price">$109.95</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shoe-wrap">
+                            <div class="shoe-img">
+                                <img src="images/slide-2.png" alt="">
+                            </div>
+                            <div class="slide-body" style="background-color: #463682;">
+
+                                <p class="slide-item"><span>2</span>/6</p>
+                                <div>
+                                    <h5>Yellow Women's Olisa -
+                                        Denim Canvas</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                        incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                    <div class="links-p">
+                                        <a href="#">QUICK LOOK</a>
+                                        <span class="price">$109.95</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shoe-wrap">
+                            <div class="shoe-img">
+                                <img src="images/slide-3.png" alt="">
+                            </div>
+                            <div class="slide-body" style="background-color: #00ae27;">
+
+                                <p class="slide-item"><span>3</span>/6</p>
+                                <div>
+                                    <h5>Yellow Women's Olisa -
+                                        Denim Canvas</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                        incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud </p>
+                                    <div class="links-p">
+                                        <a href="#">QUICK LOOK</a>
+                                        <span class="price">$109.95</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img">
+                                    <img src="images/slide-4.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #e95714;">
+
+                                    <p class="slide-item"><span>4</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tabs-content list1" style="display: none;">
+                <img class="bg-img" src="images/sheo-img2.jpg" alt="">
+                <div class="fade-inner">
+                    <div class="fade">
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img shoe-img2">
+                                    <img src="images/boy-slide-2.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #ffc601;">
+
+                                    <p class="slide-item"><span>1</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img shoe-img2">
+                                    <img src="images/boy-slide-1.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #f42a34;">
+
+                                    <p class="slide-item"><span>2</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img shoe-img2">
+                                    <img src="images/boy-slide-3.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #00ae27;">
+
+                                    <p class="slide-item"><span>3</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img shoe-img2">
+                                    <img src="images/boy-slide-4.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #0051d0;">
+
+                                    <p class="slide-item"><span>4</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tabs-content list2" style="display: none;">
+                <img class="bg-img" src="images/sheo-img3.jpg" alt="">
+                <div class="fade-inner">
+                    <div class="fade">
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img">
+                                    <img src="images/slide-1.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #ffc601;">
+
+                                    <p class="slide-item"><span>1</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img">
+                                    <img src="images/slide-2.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #463682;">
+
+                                    <p class="slide-item"><span>2</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img">
+                                    <img src="images/slide-3.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #00ae27;">
+
+                                    <p class="slide-item"><span>3</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="shoe-wrap">
+                                <div class="shoe-img">
+                                    <img src="images/slide-4.png" alt="">
+                                </div>
+                                <div class="slide-body" style="background-color: #e95714;">
+
+                                    <p class="slide-item"><span>4</span>/6</p>
+                                    <div>
+                                        <h5>Yellow Women's Olisa -
+                                            Denim Canvas</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod tempor
+                                            incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud </p>
+                                        <div class="links-p">
+                                            <a href="#">QUICK LOOK</a>
+                                            <span class="price">$109.95</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--hotShoe-wrap-end-->
+
+        <!-- explore-wrap-start -->
+        <div class="explore-wrap">
+            <div class="explore-inner">
+                <div class="explore-shoes">
+                    <div class="title-row">
+                        <span class="x-name">EXPLORE</span>
+                        <h2>MY YELLOW SHOES </h2>
+                        <p>on Twitter</p>
+                    </div>
+                    <div class="btn-row">
+                        <a href="#" class="lt-btn">
+                            <span> VIEW ALL </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img1.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img2.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img3.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img1.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img2.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                    <div>
+                        <div class="card-img">
+                            <img src="images/slide-img3.png" alt="slider">
+                        </div>
+                        <p><b>Sneaker News: </b>@SneakerNews<span> 13 hours ago </span> yellow high del are dropping on
+                            May
+                            4th
+                            <a href="#">https://snkrne.ws/2Hjg4u6 </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- explore-wrap-end -->
+
+        <!--fineUs-wrap-start-->
+        <div class="findUs-wrap">
+
+            <div class="container">
+                <span class="x-name">Find Us</span>
+                <div class="inner-row">
+                    <div class="col">
+                        <div class="map-bg">
+                            <img src="images/map_state1.png" alt="">
+                        </div>
+                        <h3>USA</h3>
+                        <ul>
+                            <li><a href="#"> Celeste Slater</a></li>
+                            <li><a href="#"> 606-3727 Ullamcorper. Street</a></li>
+                            <li><a href="#"> Roseville NH 11523</a></li>
+                            <li><a href="#"> (786) 713-8616</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="map-bg">
+                            <img src="images/map_state2.png" alt="">
+                        </div>
+                        <h3>UK</h3>
+                        <ul>
+                            <li> <a href="#"> Harriet J Henderson</a></li>
+                            <li> <a href="#"> 112 Colorado Way</a></li>
+                            <li> <a href="#"> RHYDCYMERAU SA19 4EW</a></li>
+                            <li> <a href="#"> (079) 5203-5527</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="map-bg">
+                            <img src="images/map_state3.png" alt="">
+                        </div>
+                        <h3>AUSTRALIA</h3>
+                        <ul>
+                            <li> <a href="#"> Victoria C Brennan</a></li>
+                            <li> <a href="#"> 41 Creek Street</a></li>
+                            <li> <a href="#"> HIGHLAND PLAINS 4401</a></li>
+                            <li> <a href="#"> (07) 4545-4212</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="google-maps">GOOGLE MAP</a>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="weAre-wrap">
+                    <h2>WE ARE</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">— follow us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="images/footer-logo.png">
+                    </a>
+                </div>
+                <div class="sneakers-img">
+                    <img src="images/img_sneakers_footer.png" alt="">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!--fineUs-wrap-end-->
+    <!-- js start-->
+    <script src="js/Jquery.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- js end-->
+</body>
+
+</html>
